@@ -23,7 +23,7 @@ repository       : "fancied520/fancied520.github.io" # 修改为你的仓库名
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg" # 将你的证件照或清晰生活照命名为 profile.jpg，并放到仓库的 images 文件夹下
+  avatar           : "profile.png" # 将你的证件照或清晰生活照命名为 profile.jpg，并放到仓库的 images 文件夹下
   name             : "Zong Yuan"   # 侧边栏显示的名字
   bio              : "Undergraduate in Math @ Xiangtan University | Optimization, Image Processing, AI" # 一句话简介，我帮你提炼了核心
   location         : "Xiangtan, China" # 所在地
