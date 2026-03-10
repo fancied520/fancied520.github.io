@@ -7,30 +7,29 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+# Basic Site Settings
+locale           : "en-US"
+site_theme       : "default" 
+title            : "Zong Yuan"  # 修改为你的英文名
+title_separator  : "-"
+name             : &name "Zong Yuan"  # 修改为你的英文名
+description      : &description "Zong Yuan's Academic Portfolio"   # 网页简介
+url              : "https://fancied520.github.io" # 修改为你的实际 GitHub Pages 网址
+baseurl          : "" 
+repository       : "fancied520/fancied520.github.io" # 修改为你的仓库名
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "profile.jpg" # 将你的证件照或清晰生活照命名为 profile.jpg，并放到仓库的 images 文件夹下
+  name             : "Zong Yuan"   # 侧边栏显示的名字
+  bio              : "Undergraduate in Math @ Xiangtan University | Optimization, Image Processing, AI" # 一句话简介，我帮你提炼了核心
+  location         : "Xiangtan, China" # 所在地
+  employer         : "Xiangtan University" # 当前所在机构
+  uri              : # 留空
+  email            : "yuanzong@smail.xtu.edu.cn" # 填入你的邮箱，非常重要！
 
   # Academic websites
   academia         : # URL
